@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  background-color: #242424;
+}
+
+button, input, textarea {
+  box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.22);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.22);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.22);
+  transition: 0.5s;
+}
+
+button:hover {
+  transform: translateY(-10px);
+}
