@@ -3,34 +3,34 @@ import { Link } from "react-router-dom";
 
 const Homepage = () => {
   return (
-  <div className="flex justify-center mt-[120px] text-white px-4 md:px-0"> {/* added px-4 for padding on small screens */}
+  <div className="flex justify-center mt-[120px] text-white px-4 md:px-0">
     <div className="w-full max-w-4xl">
       <h1
         id="sayitloud-header"
-        className="text-[36px] md:text-[50px] text-center mb-[20px]" // already good, text size responsive
+        className="text-[36px] md:text-[50px] text-center mb-[20px]"
       >
         Say it loud.
       </h1>
 
       <div
         id="express-container"
-        className="flex flex-col md:flex-row justify-center items-center text-white gap-10" // added flex-col md:flex-row and gap-10 for spacing and responsiveness
+        className="flex flex-col md:flex-row justify-center items-center text-white gap-10" 
       >
         <div
           id="express-container"
-          className="flex flex-col justify-center items-center mb-10 md:mb-0" // added mb-10 for spacing on mobile
+          className="flex flex-col justify-center items-center mb-10 md:mb-0"
         >
           <Link to={"/express"}>
             <button
               id="express-btn"
-              className="p-[10px] w-[120px] mt-[40px] cursor-pointer mb-[20px] rounded-md hover:bg-red-500 transition-all" // increased width, added hover and transition
+              className="p-[10px] w-[120px] mt-[40px] cursor-pointer mb-[20px] rounded-md hover:bg-red-500 transition-all" 
             >
               Express
             </button>
           </Link>
           <p
             id="express-p"
-            className="text-center w-[90%] md:w-[300px] text-base" // responsive width and text-base
+            className="text-center w-[90%] md:w-[300px] text-base"
           >
             Feel free to open up, what you share might just spark inspiration in
             someone else.
@@ -43,12 +43,12 @@ const Homepage = () => {
         >
           <Link to={"/explore"}>
             <button
-              className="p-[10px] w-[120px] mt-[40px] cursor-pointer mb-[20px] rounded-md hover:bg-red-500 transition-all" // same adjustments for consistency
+              className="p-[10px] w-[120px] mt-[40px] cursor-pointer mb-[20px] rounded-md hover:bg-red-500 transition-all"
             >
               Explore
             </button>
           </Link>
-          <p className="text-center w-[90%] md:w-[300px] text-base"> {/* responsive paragraph */}
+          <p className="text-center w-[90%] md:w-[300px] text-base">
             See what others have shared, their words might inspire you or make
             you think in a new way.
           </p>
