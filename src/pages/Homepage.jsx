@@ -7,10 +7,14 @@ const Homepage = () => {
     <div className="w-full max-w-4xl">
       <h1
         id="sayitloud-header"
-        className="text-[36px] md:text-[50px] text-center mb-[20px]"
+        className="text-[36px] md:text-[50px] text-center"
       >
         Say it loud.
       </h1>
+        <p className="text-[10px] text-center mb-[20px]">
+            Share freely, but stay respectful, avoid harmful language. <br/>
+            Neon • {new Date().getFullYear()}
+        </p>
 
       <div
         id="express-container"

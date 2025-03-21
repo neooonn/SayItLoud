@@ -32,9 +32,14 @@ const Express = () => {
     
   return <div className="flex justify-center mt-[120px] text-white">
             <div>
-                <h1 className="text-[50px] text-center mb-[20px]">
+                
+                <h1 className="text-[50px] text-center">
                     Say it loud.
                 </h1>
+                <p className="text-[10px] text-center mb-[20px]">
+                Share freely, but stay respectful, avoid harmful language. <br/>
+                Neon • {new Date().getFullYear()}
+                </p>
                 <form onSubmit={handleSave}>
                     <div className="flex flex-col">
                         <input 
